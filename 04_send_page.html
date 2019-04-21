@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        p {
+            margin-bottom: 0;
+        }
+
+        .bgd {
+            background: url("image/14.png") no-repeat;
+            background-size: 100% 100%;
+            z-index: 0;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            margin-top: 80px;
+            margin-left: 30px;
+            height: 61px;
+            border: 1px solid transparent;
+        }
+
+        .left {
+            margin-left: 20px;
+        }
+
+        .content1 p, .content2 p, .content3 {
+            font-size: 45px;
+        }
+
+        .content1 {
+            margin-top: 17%;
+            height: 10%;
+            border: 1px solid transparent;
+        }
+
+        .content2 {
+            height: 10%;
+            margin-top: 5%;
+            border: 1px solid transparent;
+        }
+
+        .content3 {
+            margin-top: 8%;
+            border: 1px solid transparent;
+
+        }
+
+        .content4 {
+            border: 1px solid transparent;
+            position: absolute;
+            top: 67%;
+            left: 11%;
+            height: 8%;
+        }
+
+        .Btn {
+            font-size: 45px;
+            border: 2px solid black;
+            border-radius: 50px;
+            height: 120px;
+            line-height: 120px;
+            text-align: center;
+            position: absolute;
+            top: 77%;
+            left: 12%;
+            width: 720px;
+        }
+
+        .email, #day, #year, #month {
+            border-bottom-color: black;
+            border-left: transparent;
+            border-right: transparent;
+            border-top: transparent;
+            background-color: transparent;
+            margin-top: 6%;
+            height: 55px;
+            width: 720px;
+            font-size: 40px;
+            color: #b4b4b4;
+            font-weight: 300;
+        }
+
+        #year {
+            width: 18%;
+            text-align: center;
+        }
+
+        #day {
+            width: 10%;
+            text-align: center;
+        }
+
+        #month {
+            width: 10%;
+            text-align: center;
+        }
+
+        .content2, .content4 {
+            font-size: 39px;
+        }
+
+        .Font {
+            width: 103%;
+        }
+
+        .footer {
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 94%;
+            height: 50px;
+            width: 100%;
+        }
+
+        .footer p {
+            font-size: 30px;
+            color: black;
+        }
+
+        .pp {
+            margin-top: 3px;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 810px
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bgd">
+    <div class="header container">
+        <div class="row">
+            <div class="col-xs-2 left">
+                <div id="return">
+                    <img src="image/6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content1 container">
+        <div class="row">
+            <div class="col-xs-4">
+                <p>收件邮箱:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <label>
+                    <input type="text" class="email">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="content2 container">
+        <div class="row">
+            <div class="col-xs-4">
+                <p>收信时间:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 font">
+                <input type="text" id="year"> 年
+                <input type="text" id="month"> 月
+                <input type="text" id="day"> 日
+            </div>
+        </div>
+    </div>
+    <div class="content3 container">
+        <div class="row">
+            <div class="col-xs-1 right">
+                <div id="image">
+                    <img src="image/11.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-11">
+                <p class="pp">允许匿名放入公开信箱</p>
+            </div>
+        </div>
+    </div>
+    <div class="content4 container">
+        <div class="row">
+            <div class="col-xs-12 Font">
+                寄出以后不可撤回，不可查找，就此消失。
+                希望你也忘记这件事，直到那一天。
+            </div>
+        </div>
+    </div>
+    <div class="Btn container" id="submit">
+        确认寄出
+        <div class="row">
+            <div class="col-xs-12">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p>@UPC易班</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    var Return = document.getElementById('return');
+    var Email = document.getElementsByClassName("email")[0];
+    var Submit = document.getElementById('submit');
+    var Year = document.getElementById('year');
+    var Day = document.getElementById('day');
+    var Month = document.getElementById('month');
+    var Image = document.getElementById('image');
+    var oImage = Image.getElementsByTagName('img')[0];
+    var flag = 0;
+    var str = window.location.href;
+    var a = location.search.substring(7, str.length - 6);
+    var b = decodeURI(a);
+    var index="False"
+    console.log(b)
+    console.log(index)
+    Image.onclick = function () {
+
+        if (flag % 2 === 0) {
+            oImage.src = 'image/10.png';
+            index = "True";
+            console.log(index)
+        } else {
+            oImage.src = 'image/11.png';
+            index = "False";
+            console.log(index)
+        }
+        flag++;
+    };
+
+    Return.onclick = function () {
+        window.location.href = '03_write_page.html'
+    };
+    Submit.onclick = function () {
+        if (Year.value === '' || Day.value === '' || Month.value === '') {
+            alert('日期不能为空');
+            return
+        }
+        if (isNaN(Year.value) === true || isNaN(Day.value) === true || isNaN(Month.value) === true) {
+            alert('日期格式错误');
+            return
+        }
+        $.get("http://144.168.59.162:8001/add",
+            {email: Email.value, date: Year.value + "-" + Month.value + "-" + Day.value, content: b, isPublic: index},
+            function () {
+                alert('发送成功')
+            });
+    };
+
+
+</script>

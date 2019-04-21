@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0565861-6606-494b-b003-7d6d9221d98e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="未来的一封信" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_home_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_help_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_write_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-837">
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_post_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="104" column="17" lean-forward="true" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_send_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-295">
+              <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>row</find>
+      <find>col-md-12</find>
+      <find>header</find>
+      <find>11</find>
+      <find>p</find>
+      <find>email</find>
+      <find>3</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01_home page.html" />
+        <option value="$PROJECT_DIR$/help_page.html" />
+        <option value="$PROJECT_DIR$/02_send_page.html" />
+        <option value="$PROJECT_DIR$/响应式.html" />
+        <option value="$PROJECT_DIR$/02_help_page.html" />
+        <option value="$PROJECT_DIR$/b.html" />
+        <option value="$PROJECT_DIR$/a.html" />
+        <option value="$PROJECT_DIR$/聊天对话框.html" />
+        <option value="$PROJECT_DIR$/03_write_page.html" />
+        <option value="$PROJECT_DIR$/3333.html" />
+        <option value="$PROJECT_DIR$/01_home_page.html" />
+        <option value="$PROJECT_DIR$/04_send_page.html" />
+        <option value="$PROJECT_DIR$/33.html" />
+        <option value="$PROJECT_DIR$/05_post_page.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="56" />
+    <option name="y" value="23" />
+    <option name="width" value="1864" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="未来的一封信" type="b2602c69:ProjectViewProjectNode" />
+              <item name="未来的一封信" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.01_home_page.html">
+    <configuration name="01_home_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/未来的一封信/01_home_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="03_write_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/未来的一封信/03_write_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="04_send_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/未来的一封信/04_send_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="05_post_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/未来的一封信/05_post_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="33.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/未来的一封信/33.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.01_home_page.html" />
+        <item itemvalue="JavaScript Debug.05_post_page.html" />
+        <item itemvalue="JavaScript Debug.04_send_page.html" />
+        <item itemvalue="JavaScript Debug.03_write_page.html" />
+        <item itemvalue="JavaScript Debug.33.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0565861-6606-494b-b003-7d6d9221d98e" name="Default Changelist" comment="" />
+      <created>1552192674892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552192674892</updated>
+      <workItem from="1552192676079" duration="1842000" />
+      <workItem from="1552195154379" duration="386000" />
+      <workItem from="1552195608931" duration="697000" />
+      <workItem from="1552196321340" duration="47000" />
+      <workItem from="1552196427806" duration="116000" />
+      <workItem from="1552196609257" duration="6085000" />
+      <workItem from="1552204270808" duration="38000" />
+      <workItem from="1552204328904" duration="7546000" />
+      <workItem from="1552483502324" duration="7152000" />
+      <workItem from="1552651178766" duration="3612000" />
+      <workItem from="1552655984321" duration="41000" />
+      <workItem from="1552657327424" duration="5300000" />
+      <workItem from="1553501185992" duration="1014000" />
+      <workItem from="1553502272447" duration="634000" />
+      <workItem from="1553503150035" duration="565000" />
+      <workItem from="1553503753722" duration="282000" />
+      <workItem from="1553507478966" duration="200000" />
+      <workItem from="1554107112683" duration="2487000" />
+      <workItem from="1554110125554" duration="130000" />
+      <workItem from="1554110378667" duration="6569000" />
+      <workItem from="1554283353106" duration="742000" />
+      <workItem from="1554284371646" duration="1347000" />
+      <workItem from="1554447540524" duration="444000" />
+      <workItem from="1554448117374" duration="166000" />
+      <workItem from="1554448329721" duration="51000" />
+      <workItem from="1554448408553" duration="6496000" />
+      <workItem from="1554468744840" duration="6284000" />
+      <workItem from="1554475619790" duration="310000" />
+      <workItem from="1554475933149" duration="251000" />
+      <workItem from="1554476188565" duration="4260000" />
+      <workItem from="1554731500740" duration="900000" />
+      <workItem from="1555071036925" duration="1272000" />
+      <workItem from="1555075435239" duration="614000" />
+      <workItem from="1555319728265" duration="3577000" />
+      <workItem from="1555487076322" duration="19000" />
+      <workItem from="1555582433122" duration="1000" />
+      <workItem from="1555589055888" duration="1053000" />
+      <workItem from="1555597817899" duration="172000" />
+      <workItem from="1555598099244" duration="58000" />
+      <workItem from="1555598239374" duration="33000" />
+      <workItem from="1555598299046" duration="314000" />
+      <workItem from="1555745069543" duration="464000" />
+      <workItem from="1555745540801" duration="235000" />
+      <workItem from="1555745826307" duration="514000" />
+      <workItem from="1555746360829" duration="129000" />
+      <workItem from="1555750294252" duration="757000" />
+      <workItem from="1555837915988" duration="893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76099000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="56" y="23" width="1864" height="1057" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10526316" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32962668" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bootstrap-3.3.7-dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1659" column="9" selection-start-line="1659" selection-start-column="1" selection-end-line="1659" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/../My Web/js/tools.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/响应式.html" />
+    <entry file="file://$PROJECT_DIR$/鼠标点击两下实现不同的效果.html" />
+    <entry file="file://$PROJECT_DIR$/a.html" />
+    <entry file="file://$PROJECT_DIR$/b.html" />
+    <entry file="file://$PROJECT_DIR$/聊天对话框.html" />
+    <entry file="file://$PROJECT_DIR$/ajax.js" />
+    <entry file="file://$PROJECT_DIR$/3333.html" />
+    <entry file="file://$PROJECT_DIR$/image/11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_post_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="104" column="17" lean-forward="true" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_write_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_help_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="148" column="6" selection-start-line="148" selection-start-column="6" selection-end-line="148" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_send_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

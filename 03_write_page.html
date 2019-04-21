@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        .bgd {
+            background: url("image/14.png") no-repeat fixed;
+            background-size: 100% 100%;
+            z-index: 0;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            margin-top: 80px;
+            margin-left: 30px;
+        }
+
+        .left {
+            margin-left: 20px;
+        }
+
+        .right {
+            left: 84%;
+        }
+
+        textarea {
+            margin-top: 10%;
+            background-color: transparent;
+            border-color: transparent;
+            height: 1500px;
+            width: 800px;
+            font-size: 55px;
+            position: absolute;
+            left: 10%;
+        }
+
+        .footer {
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 94%;
+            height: 50px;
+            width: 100%;
+        }
+
+        .footer p {
+            font-size: 30px;
+            color: black;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 810px
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bgd">
+    <div class="header container">
+        <div class="row">
+            <div class="col-xs-2 left">
+                <div>
+                    <img src="image/6.png" alt="" id="return">
+                </div>
+            </div>
+            <div class="col-xs-2 col-xs-push-9 right">
+                <div id="submit">
+                    <img src="image/9.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content container">
+        <div class="row">
+                <textarea id="cont"></textarea>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p>@UPC易班</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    var Return = document.getElementById('return');
+    var Submit = document.getElementById('submit');
+    var Cont = document.getElementById('cont');
+    Return.onclick = function () {
+        window.location.href = '01_home_page.html';
+    };
+    Submit.onclick = function () {
+        if (Cont.value===''){
+            alert('内容不能为空')
+        }
+        else{
+            window.location.href = '04_send_page.html?order='+Cont.value;
+        }
+
+    }
+
+</script>
+</html>

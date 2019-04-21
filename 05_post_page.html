@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        .bgd {
+            background: url("image/7.png");
+            background-size: 100% 100%;
+            z-index: -1;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+        }
+
+        .header {
+            height: 90px;
+            position: relative;
+            top: 80px;
+            margin-left: 50px;
+        }
+
+        .header p {
+            font-size: 50px;
+            margin-top: -10px;
+        }
+
+        .letter {
+            height: 700px;
+            width: 860px;
+            background-color: #f5f7f7;
+            box-shadow: 0 0 10px #b4b4b4;
+            overflow-x: hidden;
+            overflow-y: auto;
+            font-size: 50px;
+            line-height: 90px;
+            padding: 40px 40px 40px;
+            color: #4d4d4d;
+        }
+
+        .cll {
+            right: 9.666667%;
+        }
+
+        .top2 {
+            margin-top: 9%;
+        }
+
+        .ll {
+            left: 27%;
+        }
+
+        .footer {
+            height: 60px;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 750px
+            }
+        }
+
+        @media (min-height: 1800px) {
+            .footer {
+                /*height: 446px;*/
+            }
+        }
+
+        #box3 {
+            height: 58px;
+            border: 1px solid transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="bgd">
+</div>
+<div class="header container">
+    <div class="row">
+        <div class="col-xs-2">
+            <div id="return"><img src="image/6.png" alt=""></div>
+        </div>
+        <div class="col-xs-7 col-xs-push-3 ll">
+            <p>公开信箱</p>
+        </div>
+    </div>
+</div>
+<div class="content container top" id="box">
+    <div id="box3"></div>
+</div>
+<div class="footer">
+</div>
+
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    var obox = document.getElementById('box');
+    var Return = document.getElementById('return');
+    Return.onclick = function () {
+        window.location.href = '01_home_page.html';
+    };
+
+    let add = () => {
+        $.get("http://144.168.59.162:8001/getall", function (result) {
+            let number = result.list.length;
+            for (let i = 0; i < number; i++) {
+
+                var d = document.createElement("div");
+                if (!result.list[i].fields.isPublic) {
+                    console.log("==")
+                    continue;
+                }
+                // console.log(result.list[i].fields.isPublic)
+                obox.appendChild(d);
+                d.innerHTML = "<div class=\"row top2\">\n" +
+                    "            <div class=\"col-xs-12 col-xs-pull-2 cll\">\n" +
+                    "                <div class=\"letter\" id='3'></div>\n" +
+                    "            </div>\n" +
+                    "        </div>";
+                document.getElementById("3").id = i;
+                var ibox = document.getElementById(i.toString());
+                ibox.innerHTML = result.list[i].fields.content
+
+            }
+        });
+    };
+    add();
+</script>
+</html>

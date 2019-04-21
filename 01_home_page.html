@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bgd {
+            background: url("image/8.png") no-repeat fixed;
+            background-size: 100% 100%;
+            z-index: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .header-top {
+            height: 100px;
+            width: 100%;
+            margin-top: 80px;
+        }
+
+        .content_1 {
+            position: absolute;
+            top: 22%;
+            left: 11%;
+            height: 400px;
+        }
+
+        .content_1 img {
+            margin-left: 10px;
+        }
+
+        .content_2 {
+            position: absolute;
+            top: 60%;
+            left: 11%;
+            height: 100px;
+        }
+
+        #number {
+            position: absolute;
+            left: 400px;
+            top: 300px;
+            height: 80px;
+            width: 40px;
+            font-size: 36px;
+            font-family: "Adobe Gothic Std",serif;
+        }
+        #letter_box {
+            margin-left: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            top: 94%;
+            height: 50px;
+            width: 100%;
+        }
+
+        .footer p {
+            font-size: 30px;
+        }
+
+        .ll {
+            left: 34px;
+        }
+
+        .ll2 {
+            left: 124px;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                width: 810px
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bgd">
+    <div class="header-top container">
+        <div class="row">
+            <div class="col-xs-10 "></div>
+            <div class="col-xs-2">
+                <div id="help">
+                    <img src="image/3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_1 container">
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="image/1.png" alt="">
+                <div id="number"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content_2 container">
+        <div class="row">
+            <div class="col-xs-4 ll">
+                <div>
+                    <img src="image/4.png" alt="" id="letter_write">
+                </div>
+            </div>
+            <div class="col-xs-6 col-xs-push-2 ll2">
+                <div>
+                    <img src="image/5.png" alt="" id="letter_box">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p>@UPC易班</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+
+    var Help = document.getElementById('help');
+    var Number = document.getElementById('number');
+    var letterBox = document.getElementById('letter_box');
+    var letterWrite = document.getElementById('letter_write');
+    Help.onclick = function () {
+
+        window.location.href = '02_help_page.html';
+    };
+    letterBox.onclick = function () {
+        window.location.href = '05_post_page.html';
+    };
+    letterWrite.onclick = function () {
+
+        window.location.href = '03_write_page.html';
+    };
+    $(document).ready(function () {
+        $.get("http://144.168.59.162:8001/getall", function (result) {
+            Number.innerHTML = result.list.length
+        });
+    });
+</script>
+</html>
